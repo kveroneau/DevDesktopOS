@@ -1,0 +1,16 @@
+telnet
+tofrodos
+xnest
+rdesktop
+xtightvncviewer
+x2x
+x2vnc
+tcputils
+cryptsetup
+lvm2
+live-build
+approx
+nvidia-tesla-470-driver
+nfs-common
+rsync
+openssh-client

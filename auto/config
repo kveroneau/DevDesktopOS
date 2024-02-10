@@ -1,0 +1,14 @@
+!#/bin/sh
+
+lb config noauto \
+	-b iso \
+	-d bookworm \
+	--apt-indices false \
+	--apt-recommends false \
+	--memtest none \
+	--iso-volume "Live Test" \
+	--iso-preparer "Kevin Veroneau" \
+	--iso-publisher "Kevin Veroneau Consulting" \
+	--bootappend-live "boot=live config hostname=DevDesktopOS" \
+	--archive-areas "main contrib non-free" \
+	"${@}"
