@@ -10,8 +10,8 @@ This is also a git project, so if you feel that you'd prefer **GNOME** over **Pl
 
 At the moment, it is very barebones, the main highlight features of this very early alpha release(*if you can even call it that*) is the following:
 
-  * Fully configured and ready to use **libvirt** and **Virtual Machine Machine**.
-    - Virtual Machine Machine is a GUI VM manager which can manage the following virtualization tech:
+  * Fully configured and ready to use **libvirt** and **Virtual Machine Manager**.
+    - Virtual Machine Manager is a GUI VM manager which can manage the following virtualization tech:
       - QEMU/KVM
       - LXC
       - Xen
@@ -44,4 +44,4 @@ The main idea is for the environment to be fully functional for almost any user 
 
 ## Current project plans
 
-Essentially since I am currently only building this for myself at the moment, and it isn't really difficult to change if it gains attention.  I will be focusing on trying to replicate my current `buster` Linux workstation as a full LiveCD, which will include most of the software packages I have installed on my normal development system, some pre-configured with some of my presets of course.  This project can otherwise be a good starting point for anyone wanting to build a Debian Live image of their own.  As the official documentation can be a bit much to go through.
+Essentially since I am currently only building this for myself at the moment, and it isn't really difficult to change if it gains attention.  I will be focusing on trying to replicate my current `buster` Linux workstation as a full `bookworm` LiveCD, which will include most of the software packages I have installed on my normal development system, some pre-configured with some of my presets of course.  This project can otherwise be a good starting point for anyone wanting to build a Debian Live image of their own.  As the official documentation can be a bit much to go through.
